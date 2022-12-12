@@ -1,0 +1,65 @@
+body, html, a{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Source Sans Pro;
+    color: #fff;
+}
+#header {
+    position: absolute;
+}
+#page1 {
+    width: 100%;
+    position: relative;
+}
+.outer1 {
+    width: 100%;
+}
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.outer2 {
+    width: 100%;
+    position: relative;
+}
+.top-left {
+    position: absolute;
+}
+.nasa {
+    max-width: 87px;
+    max-height: 87px;
+    margin-top: 60px;
+    margin-left: 65px;
+}
+.csa {
+    max-width: 87px;
+    max-height: 87px;
+    margin-top: 60px;
+    margin-left: 185px;
+}
+.esa {
+    max-width: 87px;
+    max-height: 87px;
+    margin-top: 60px;
+    margin-left: 295px;
+}
+.buttom-left {
+    position: absolute;
+    width: 450px;
+    margin-top: 1502px;
+    margin-left: 120px;
+
+}
+.top-right {
+    position: absolute;
+    max-width: 680px;
+    margin-top: 250px;
+    margin-right: 80px;
+}
