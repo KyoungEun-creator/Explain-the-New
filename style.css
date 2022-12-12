@@ -25,41 +25,49 @@ body, html, a{
     color: #fff;
     text-align: center;
 }
-.outer2 {
+#page3 {
+    position: relative;
+}
+.outer3 {
     width: 100%;
     position: relative;
+    overflow: auto
 }
 .top-left {
     position: absolute;
 }
 .nasa {
+    position: absolute;
     max-width: 87px;
     max-height: 87px;
-    margin-top: 60px;
-    margin-left: 65px;
+    margin-top: -1038px;
+    margin-left: 90px;
+
 }
 .csa {
+    position: absolute;
     max-width: 87px;
     max-height: 87px;
-    margin-top: 60px;
-    margin-left: 185px;
+    margin-top: -1038px;
+    margin-left: 205px;
 }
 .esa {
+    position: absolute;
     max-width: 87px;
     max-height: 87px;
-    margin-top: 60px;
-    margin-left: 295px;
+    margin-top: -1038px;
+    margin-left: 330px;
 }
 .buttom-left {
     position: absolute;
     width: 450px;
-    margin-top: 1502px;
-    margin-left: 120px;
+    margin-top: -380px;
+    margin-left: 122px;
 
 }
 .top-right {
     position: absolute;
-    max-width: 680px;
-    margin-top: 250px;
-    margin-right: 80px;
+    max-width: 720px;
+    margin-top: -842px;
+    margin-left: 630px;
 }
