@@ -1,4 +1,9 @@
-body, html, a{
+body{
+    margin:0;
+    padding: 0;
+    height:5000px;
+}
+html, a{
     margin: 0;
     padding: 0;
     font-size: 16px;
@@ -8,66 +13,158 @@ body, html, a{
 #header {
     position: absolute;
 }
-#page1 {
+/* #page1 {
     width: 100%;
-    position: relative;
-}
+    /* position: relative;
+} */
 .outer1 {
+    margin: 0;
     width: 100%;
+    padding: 0;
 }
 .center-text {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate( -50%, -50% );
+    transform: translate( -50%, -50% ); /*정가운데 배치*/
+    width: 1000px; /* 가로로 넓게 배치*/
     font-size: 70px;
     font-family: 'Oswald', sans-serif;
     color: #fff;
     text-align: center;
 }
-#page3 {
+/* #page3 {
     position: relative;
-}
+    width: 100%;
+} */
 .outer3 {
     width: 100%;
-    position: relative;
-    overflow: auto
+    height: 1130px;
+    /* position: relative; */
+    background-color: black;
+    margin: 0;
 }
 .top-left {
     position: absolute;
+    max-width: 87px;
+    max-height: 87px;
 }
 .nasa {
     position: absolute;
     max-width: 87px;
     max-height: 87px;
-    margin-top: -1038px;
-    margin-left: 90px;
-
+    top: 60px;
+    left: 65px;
 }
 .csa {
     position: absolute;
     max-width: 87px;
     max-height: 87px;
-    margin-top: -1038px;
-    margin-left: 205px;
+    top: 60px;
+    left: 205px;
 }
 .esa {
     position: absolute;
     max-width: 87px;
     max-height: 87px;
-    margin-top: -1038px;
-    margin-left: 330px;
+    top: 60px;
+    left: 330px;
+}
+.top-right-text {
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    top: 1020px;
+    right: 70px;
+}
+.left-text{
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.left-text-1 {
+    position: absolute;
+    color: #fff;
+    top: 1150px;
+    left: 130px;
+}
+.left-text-2 {
+    position: absolute;
+    color: yellow;
+    top: 1290px;
+    left: 130px;
+}
+.left-text-3 {
+    position: absolute;
+    color: #fff;
+    top: 1330px;
+    left: 130px;
 }
 .buttom-left {
     position: absolute;
     width: 450px;
-    margin-top: -380px;
-    margin-left: 122px;
-
+    top: 1700px;
+    left: 122px;
 }
 .top-right {
     position: absolute;
     max-width: 720px;
-    margin-top: -842px;
-    margin-left: 630px;
+    top: 1200px;
+    left: 630px;
+}
+.buttom-right-text {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.buttom-right-text-1 {
+    position: absolute;
+    color: yellow;
+    top: 1800px;
+    left: 800px;
+}
+.buttom-right-text-2 {
+    position: absolute;
+    color: white;
+    top: 1830px;
+    left: 800px;
+}
+.outer4 {
+    width: 100%;
+    height: 1130px;
+    /* position: relative; */
+    background-color: black;
+    margin: 0;
+}
+.top-center-text {
+    width: 1000px;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.top-center-text-1 {
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    left: 130px;
+    color: #fff;
+    text-align: left;
+}
+.top-center-text-2 {
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    left: 650px;
+    color: yellow;
+    text-align: center;
+}
+.top-center-text-3 {
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    left: 600px;
+    width:700px;
+    color: #fff;
+    text-align: right;
 }
