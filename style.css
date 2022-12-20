@@ -97,6 +97,7 @@ html, a{
 }
 .pg3-left-text-2 {
     position: absolute;
+    font-weight: 900;
     color: #FBDF00;
     top: 1290px;
     left: 130px;
@@ -126,6 +127,7 @@ html, a{
 }
 .pg3-buttom-right-text-1 {
     position: absolute;
+    font-weight: 900;
     color: #FBDF00;
     top: 1800px;
     left: 800px;
@@ -133,18 +135,15 @@ html, a{
 .pg3-buttom-right-text-2 {
     position: absolute;
     color: white;
-    top: 1830px;
+    top: 1840px;
     left: 800px;
 }
-/* .outer4 {
+.outer4 {
     width: 100%;
     height: 1130px;
-    /* position: relative; 
+    position: relative;
     background-color: black;
     margin: 0;
-} */
-.outer4 {
-    position: relative; 
 }
 .bg4 {
     width: 100%;
@@ -178,11 +177,61 @@ html, a{
     text-align: right;
 }
 .outer5 {
+    width: 100%;
+    height: 1130px;
     position: relative;
+    background-color: black;
+    margin: 0;
 }
 .bg5 {
     margin: 0;
     width: 100%;
+}
+.pg5-hubble-mirror {
+    position: absolute;
+    top: 430px;
+    left: 199px;
+    width: 84px;
+    animation: rotate_image 6s linear infinite;transform-origin: 50% 50%;
+}
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.pg5-hubble-rays {
+    position: absolute;
+    width: 155px;
+    top: 490px;
+    left: 162px;
+    animation: slide 1s ease-out;
+}
+@keyframes appear {
+    from {
+        display: none;
+    }
+    to {
+        left: 200px;
+        opacity: 1;
+    }
+}
+.pg5-webb-mirror {
+    position: absolute;
+    top: 275px;
+    left: 439px;
+    width: 224px;
+    animation: rotate_image 6s linear infinite;transform-origin: 50% 50%;
+}
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.pg5-webb-rays {
+    position: absolute;
+    width: 750px;
+    top: 477px;
+    left: 220px;
 }
 .pg5-top-left-text {
     position: absolute;
