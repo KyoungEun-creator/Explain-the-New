@@ -2,6 +2,8 @@ body{
     margin:0;
     padding: 0;
     height:5000px;
+    width: 100%;
+    background-color: black;
 }
 html, a{
     margin: 0;
@@ -12,6 +14,8 @@ html, a{
 }
 #header {
     position: absolute;
+    top: 10px;
+    left: 350px;
 }
 /* #page1 {
     width: 100%;
@@ -21,6 +25,7 @@ html, a{
     margin: 0;
     width: 100%;
     padding: 0;
+    position: relative;
 }
 .pg1-center-text {
     position: absolute;
@@ -33,10 +38,6 @@ html, a{
     color: #fff;
     text-align: center;
 }
-/* #page3 {
-    position: relative;
-    width: 100%;
-} */
 .outer3 {
     width: 100%;
     height: 1130px;
@@ -176,6 +177,36 @@ html, a{
     color: white;
     text-align: right;
 }
+.pg4-top-left {
+    position: absolute;
+    top: 250px;
+    left: 130px;
+}
+.pg4-top-right {
+    position: absolute;
+    top: 180px;
+    left: 940px;
+}
+.pg4-middle-left {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+.pg4-middle-right {
+    position: absolute;
+    top: 400px;
+    left: 1130px;
+}
+.pg4-buttom-left {
+    position: absolute;
+    top: 650px;
+    left: 250px;
+}
+.pg4-buttom-right {
+    position: absolute;
+    top: 650px;
+    left: 1075px;
+}
 .outer5 {
     width: 100%;
     height: 1130px;
@@ -276,4 +307,15 @@ html, a{
     color: white;
     top: 500px;
     left: 1150px;
+}
+.outer6 {
+    width: 100%;
+    height: 1130px;
+    position: relative;
+    background-color: black;
+    margin: 0;
+}
+.bg6 {
+    margin: 0;
+    width: 100%;
 }
