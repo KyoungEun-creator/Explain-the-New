@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding: 0;
-    height:5000px;
+    height:15000px;
     width: 100%;
     background-color: black;
 }
@@ -17,10 +17,6 @@ html, a{
     top: 10px;
     left: 350px;
 }
-/* #page1 {
-    width: 100%;
-    /* position: relative;
-} */
 .outer1 {
     margin: 0;
     width: 100%;
@@ -38,17 +34,28 @@ html, a{
     color: #fff;
     text-align: center;
 }
+.outer2 {
+    margin: 0;
+    width: 100%;
+    height: 1130px;
+    position: relative;
+}
+#c {
+    background: url(weic2216e.jpg); 
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    }
 .outer3 {
     width: 100%;
     height: 1130px;
-    /* position: relative; */
-    background-color: black;
+    /* background-color: black; */
     margin: 0;
 }
 .pg3-top-left {
     position: absolute;
-    max-width: 87px;
-    max-height: 87px;
+    /* max-width: 87px;
+    max-height: 87px; */
 }
 .pg3-frame_logo {
     position: absolute;
@@ -318,4 +325,10 @@ html, a{
 .bg6 {
     margin: 0;
     width: 100%;
+    position: relative;
+}
+.secondaryMirror {
+    position: absolute;
+    /* width: 1500px; */
+
 }
