@@ -85,7 +85,6 @@ html, a{
     top: 60px;
     left: 330px;
 }
-/*  */
 .pg3-top-right-txt {
     position: absolute;
     font-size: 50px;
@@ -144,6 +143,12 @@ html, a{
     color: white;
     top: 2790px;
     left: 750px;
+}
+#between3-4 {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background-color: black;
 }
 .outer4 {
     width: 100%;
@@ -326,8 +331,80 @@ html, a{
     width: 100%;
     position: relative;
 }
-.secondaryMirror {
+.secondary_mirror_w {
     position: absolute;
-    /* width: 1500px; */
-
+    top: 340px;
+    left: 45px;
+}
+.secondary_mirror_y {
+    display: block;
+    position: absolute;
+    top: 340px;
+    left: 45px;
+}
+.primary_mirror_w {
+    position: absolute;
+    top: 210px;
+    left: 650px;
+}
+.primary_mirror_y {
+    display: block;
+    position: absolute;
+    top: 210px;
+    left: 650px;
+}
+.ISIM_w {
+    position: absolute;
+    top: 293px;
+    left: 870px;
+}
+.ISIM_y {
+    display: block;
+    position: absolute;
+    top: 293px;
+    left: 870px;
+}
+.Earth-facing-antenna_w {
+    position: absolute;
+    top:670px;
+    left: 880px;
+}
+.Earth-facing-antenna_y {
+    display: block;
+    position: absolute;
+    top: 670px;
+    left: 880px;
+}
+.Control-system_w {
+    position: absolute;
+    top: 720px;
+    left: 730px;
+}
+.Control-system_y {
+    display: block;
+    position: absolute;
+    top: 720px;
+    left: 730px;
+}
+.Startrackers_w {
+    position: absolute;
+    top: 735px;
+    left: 555px;
+}
+.Startrackers_y {
+    display: block;
+    position: absolute;
+    top: 735px;
+    left: 555px;
+}
+.Sunshield_w {
+    position: absolute;
+    top: 590px;
+    left: 360px;
+}
+.Sunshield_y {
+    display: block;
+    position: absolute;
+    top: 590px;
+    left: 360px;
 }
