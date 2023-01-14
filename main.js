@@ -1,4 +1,4 @@
-// page2
+// page2: wipe transition
 var ctx = c.getContext("2d"),
 img = new Image();         // image to show
 

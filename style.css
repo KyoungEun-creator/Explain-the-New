@@ -34,18 +34,19 @@ html, a{
     color: #fff;
     text-align: center;
 }
+
 .outer2 {
     margin: 0;
     width: 100%;
     height: 1130px;
-    position: relative;
+    /* position: relative; */
 }
 #c {
     background: url(weic2216e.jpg); 
     background-size: cover;
     width: 100%;
-    position: absolute;
-    }
+}
+
 .outer3 {
     width: 100%;
     height: 1130px;
@@ -84,67 +85,65 @@ html, a{
     top: 60px;
     left: 330px;
 }
-.pg3-top-right-text {
+/*  */
+.pg3-top-right-txt {
     position: absolute;
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
     color: #fff;
-    top: 1020px;
-    right: 70px;
+    top: 1950px;
+    right: 50px;
 }
-.pg3-left-text{
-    margin: 0;
+.pg3-left-txt-1 {
+    position: absolute;
     font-size: 20px;
     font-family: 'Noto Sans', sans-serif;
-}
-.pg3-left-text-1 {
-    position: absolute;
     color: #fff;
-    top: 1146px;
-    left: 130px;
+    top: 2075px;
+    left: 135px;
 }
-.pg3-left-text-2 {
+.pg3-left-txt-2 {
     position: absolute;
-    font-weight: 900;
-    color: #FBDF00;
-    top: 1290px;
-    left: 130px;
-}
-.pg3-left-text-3 {
-    position: absolute;
-    color: #fff;
-    top: 1330px;
-    left: 130px;
-}
-.pg3-buttom-left {
-    position: absolute;
-    width: 450px;
-    top: 1700px;
-    left: 122px;
-}
-.pg3-top-right {
-    position: absolute;
-    max-width: 750px;
-    top: 1160px;
-    left: 630px;
-}
-.pg3-buttom-right-text {
-    margin: 0;
     font-size: 20px;
     font-family: 'Noto Sans', sans-serif;
-}
-.pg3-buttom-right-text-1 {
-    position: absolute;
-    font-weight: 900;
     color: #FBDF00;
-    top: 1800px;
-    left: 800px;
+    top: 2220px;
+    left: 135px;
 }
-.pg3-buttom-right-text-2 {
+.pg3-left-txt-3 {
     position: absolute;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #fff;
+    top: 2260px;
+    left: 135px;
+}
+.pg3-buttom-left-gif {
+    position: absolute;
+    top: 2650px;
+    left: 50px;
+}
+.pg3-top-right-img {
+    position: absolute;
+    width: 850px;
+    top: 2050px;
+    right: 20px;
+}
+.pg3-buttom-right-txt-1 {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #FBDF00;
+    top: 2750px;
+    left: 750px;
+}
+.pg3-buttom-right-txt-2 {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
     color: white;
-    top: 1840px;
-    left: 800px;
+    top: 2790px;
+    left: 750px;
 }
 .outer4 {
     width: 100%;
