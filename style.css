@@ -1,3 +1,6 @@
+.container {
+    padding-top: 56.25%; /*16:9 화면비율*/
+}
 body{
     margin:0;
     padding: 0;
@@ -42,7 +45,7 @@ html, a{
     /* position: relative; */
 }
 #c {
-    background: url(weic2216e.jpg); 
+    background: url(Pillars_of_Creation_2022.jpg); 
     background-size: cover;
     width: 100%;
 }
@@ -337,7 +340,7 @@ html, a{
     top: 340px;
     left: 45px;
 }
-.black-bg {
+.black-bg1 {
     display: none;
     width : 70%;
     height : 50;
@@ -349,7 +352,7 @@ html, a{
     padding: 200px 190px;
     border-radius: 5px;
 }
-.white-bg {
+.white-bg1 {
     align-items: center;
     background: #fff;
     border-radius: 5px;
@@ -366,6 +369,24 @@ html, a{
     top: 210px;
     left: 650px;
 }
+.black-bg2 {
+    display: none;
+    width : 70%;
+    height : 50;
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    background : rgba(0,0,0,0.7);
+    z-index : 5;
+    padding: 200px 190px;
+    border-radius: 5px;
+}
+.white-bg2 {
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 40px;
+} 
 .primary_mirror_y {
     display: none;
     position: absolute;
@@ -377,6 +398,24 @@ html, a{
     top: 293px;
     left: 870px;
 }
+.black-bg3 {
+    display: none;
+    width : 70%;
+    height : 50;
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    background : rgba(0,0,0,0.7);
+    z-index : 5;
+    padding: 200px 190px;
+    border-radius: 5px;
+}
+.white-bg3 {
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 40px;
+} 
 .ISIM_y {
     display: none;
     position: absolute;
@@ -388,6 +427,24 @@ html, a{
     top:670px;
     left: 880px;
 }
+.black-bg4 {
+    display: none;
+    width : 70%;
+    height : 50;
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    background : rgba(0,0,0,0.7);
+    z-index : 5;
+    padding: 200px 190px;
+    border-radius: 5px;
+}
+.white-bg4 {
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 40px;
+} 
 .Earth-facing-antenna_y {
     display: none;
     position: absolute;
@@ -399,6 +456,24 @@ html, a{
     top: 720px;
     left: 730px;
 }
+.black-bg5 {
+    display: none;
+    width : 70%;
+    height : 50;
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    background : rgba(0,0,0,0.7);
+    z-index : 5;
+    padding: 200px 190px;
+    border-radius: 5px;
+}
+.white-bg5 {
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 40px;
+} 
 .Control-system_y {
     display: none;
     position: absolute;
@@ -410,6 +485,24 @@ html, a{
     top: 735px;
     left: 555px;
 }
+.black-bg6 {
+    display: none;
+    width : 70%;
+    height : 50;
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    background : rgba(0,0,0,0.7);
+    z-index : 5;
+    padding: 200px 190px;
+    border-radius: 5px;
+}
+.white-bg6 {
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 40px;
+} 
 .Startrackers_y {
     display: none;
     position: absolute;
@@ -421,6 +514,24 @@ html, a{
     top: 590px;
     left: 360px;
 }
+.black-bg7 {
+    display: none;
+    width : 70%;
+    height : 50;
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    background : rgba(0,0,0,0.7);
+    z-index : 5;
+    padding: 200px 190px;
+    border-radius: 5px;
+}
+.white-bg7 {
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 40px;
+} 
 .Sunshield_y {
     display: none;
     position: absolute;
