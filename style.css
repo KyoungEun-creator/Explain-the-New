@@ -552,20 +552,34 @@ html, a{
     position: absolute;
     top: 475px;
     left: 398px;
+    animation: rotate_image 6s linear infinite;transform-origin: 50% 50%;
+}
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
 }
 .outer10-2 {
     position: absolute;
     top: 1195px;
     right: 100px;
+    animation: rotate_image 6s linear infinite;transform-origin: 50% 50%;
+}
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
 }
 .pg10-left-txt-1 {
     position: absolute;
+    font-family: 'Noto Sans', sans-serif;
     color: #FBDF00;
     top: 1230px;
     left: 130px;
 }
 .pg10-left-txt-2 {
     position: absolute;
+    font-family: 'Noto Sans', sans-serif;
     color: white;
     top: 1290px;
     left: 130px;
@@ -584,7 +598,7 @@ html, a{
     transform: translate( -50%, -50% ); /*정가운데 배치*/
     width: 1000px; /* 가로로 넓게 배치*/
     font-size: 70px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #fff;
     text-align: center;
 }
@@ -594,7 +608,7 @@ html, a{
     left: 70px;
     width: 1000px; /* 가로로 넓게 배치*/
     font-size: 70px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #FBDF00;
     text-align: center;
 }
