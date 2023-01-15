@@ -41,4 +41,58 @@ function start() {
 
 document.querySelector('.secondary_mirror_w').addEventListener('click', function(){
     document.querySelector('.secondary_mirror_y').style.display='block';
-})
+    document.querySelector('.black-bg').style.display='block';
+});
+document.querySelector('.black-bg').addEventListener('click', function(){
+    document.querySelector('.secondary_mirror_y').style.display='none';
+    document.querySelector('.black-bg').style.display='none';
+});
+document.querySelector('.primary_mirror_w').addEventListener('click', function(){
+    document.querySelector('.primary_mirror_y').style.display='block';
+    document.querySelector('.black-bg').style.display='block';
+});
+document.querySelector('.black-bg').addEventListener('click', function(){
+    document.querySelector('.primary_mirror_y').style.display='none';
+    document.querySelector('.black-bg').style.display='none';
+});
+document.querySelector('.ISIM_w').addEventListener('click', function(){
+    document.querySelector('.ISIM_y').style.display='block';
+    document.querySelector('.black-bg').style.display='block';
+});
+document.querySelector('.black-bg').addEventListener('click', function(){
+    document.querySelector('.ISIM_y').style.display='none';
+    document.querySelector('.black-bg').style.display='none';
+});
+document.querySelector('.Earth-facing-antenna_w').addEventListener('click', function(){
+    document.querySelector('.Earth-facing-antenna_y').style.display='block';
+    document.querySelector('.black-bg').style.display='block';
+});
+document.querySelector('.black-bg').addEventListener('click', function(){
+    document.querySelector('.Earth-facing-antenna_y').style.display='none';
+    document.querySelector('.black-bg').style.display='none';
+});
+document.querySelector('.Control-system_w').addEventListener('click', function(){
+    document.querySelector('.Control-system_y').style.display='block';
+    document.querySelector('.black-bg').style.display='block';
+});
+document.querySelector('.black-bg').addEventListener('click', function(){
+    document.querySelector('.Control-system_y').style.display='none';
+    document.querySelector('.black-bg').style.display='none';
+});
+document.querySelector('.Startrackers_w').addEventListener('click', function(){
+    document.querySelector('.Startrackers_y').style.display='block';
+    document.querySelector('.black-bg').style.display='block';
+});
+document.querySelector('.black-bg').addEventListener('click', function(){
+    document.querySelector('.Startrackers_y').style.display='none';
+    document.querySelector('.black-bg').style.display='none';
+});
+document.querySelector('.Sunshield_w').addEventListener('click', function(){
+    document.querySelector('.Sunshield_y').style.display='block';
+    document.querySelector('.black-bg').style.display='block';
+});
+document.querySelector('.black-bg').addEventListener('click', function(){
+    document.querySelector('.Sunshield_y').style.display='none';
+    document.querySelector('.black-bg').style.display='none';
+});
+

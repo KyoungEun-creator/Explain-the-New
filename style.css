@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding: 0;
-    height:15000px;
+    height:18000px;
     width: 100%;
     background-color: black;
 }
@@ -50,8 +50,9 @@ html, a{
 .outer3 {
     width: 100%;
     height: 1130px;
-    /* background-color: black; */
+    background-color: black;
     margin: 0;
+    padding: 0;
 }
 .pg3-top-left {
     position: absolute;
@@ -293,31 +294,31 @@ html, a{
     position: absolute;
     color: white;
     top: 300px;
-    left: 1000px;
+    left: 950px;
 }
 .pg5-right-text-2 {
     position: absolute;
     color: #FBDF00;
     top: 470px;
-    left: 1000px;
+    left: 950px;
 }
 .pg5-right-text-3 {
     position: absolute;
     color: white;
     top: 500px;
-    left: 1000px;
+    left: 950px; 
 }
 .pg5-right-text-4 {    
     position: absolute;
     color: #FBDF00;
     top: 500px;
-    left: 1120px;
+    left: 1100px; 
 }
 .pg5-right-text-5 {
     position: absolute;
     color: white;
     top: 500px;
-    left: 1150px;
+    left: 1140px; 
 }
 .outer6 {
     width: 100%;
@@ -336,8 +337,26 @@ html, a{
     top: 340px;
     left: 45px;
 }
+.black-bg {
+    display: none;
+    width : 70%;
+    height : 50;
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    background : rgba(0,0,0,0.7);
+    z-index : 5;
+    padding: 200px 190px;
+    border-radius: 5px;
+}
+.white-bg {
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 40px;
+} 
 .secondary_mirror_y {
-    display: block;
+    display: none;
     position: absolute;
     top: 340px;
     left: 45px;
@@ -348,7 +367,7 @@ html, a{
     left: 650px;
 }
 .primary_mirror_y {
-    display: block;
+    display: none;
     position: absolute;
     top: 210px;
     left: 650px;
@@ -359,7 +378,7 @@ html, a{
     left: 870px;
 }
 .ISIM_y {
-    display: block;
+    display: none;
     position: absolute;
     top: 293px;
     left: 870px;
@@ -370,7 +389,7 @@ html, a{
     left: 880px;
 }
 .Earth-facing-antenna_y {
-    display: block;
+    display: none;
     position: absolute;
     top: 670px;
     left: 880px;
@@ -381,7 +400,7 @@ html, a{
     left: 730px;
 }
 .Control-system_y {
-    display: block;
+    display: none;
     position: absolute;
     top: 720px;
     left: 730px;
@@ -392,7 +411,7 @@ html, a{
     left: 555px;
 }
 .Startrackers_y {
-    display: block;
+    display: none;
     position: absolute;
     top: 735px;
     left: 555px;
@@ -403,7 +422,7 @@ html, a{
     left: 360px;
 }
 .Sunshield_y {
-    display: block;
+    display: none;
     position: absolute;
     top: 590px;
     left: 360px;
